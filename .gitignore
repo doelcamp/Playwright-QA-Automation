@@ -1,0 +1,6 @@
+venv/
+.venv/
+__pycache__/
+.pytest_cache/
+reporte.html
+login_page_actual.png
