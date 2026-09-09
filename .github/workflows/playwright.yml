@@ -29,4 +29,6 @@ jobs:
       run: python -m playwright install --with-deps chromium
 
     - name: 5. Ejecutar Smoke Test
-      run: python -m pytest tests/test_smoke.py
+      env:
+        PYTHONPATH: .
+      run: pytest tests/test_smoke.py
