@@ -31,4 +31,4 @@ jobs:
     - name: 5. Ejecutar Smoke Test
       env:
         PYTHONPATH: .
-      run: python -m pytest tests/test_smoke.py -v -rA
+      run: python -m pytest tests/test_smoke.py -v -rA# Trigger debug run
